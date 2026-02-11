@@ -9,6 +9,8 @@ A comprehensive analysis system for real-world automotive OBD-II data from 20+ j
 - **Comparative Analysis**: Statistical comparison between different driving conditions
 - **Interactive Dashboard**: Streamlit-based web interface with interactive visualizations
 
+
+
 ## Project Structure
 
 ```
@@ -63,6 +65,9 @@ comparison = compare_conditions(master_df)
 
 ## Data Pipeline
 
+<img width="1251" height="862" alt="image" src="https://github.com/user-attachments/assets/3e1345fa-43d6-4072-bcdd-0da825a91ab6" />
+
+
 ### Module 1: Data Ingestion
 - Iterates through all CSV files in `obd_dataset/`
 - Parses filename metadata (date, route, condition)
@@ -102,16 +107,25 @@ comparison = compare_conditions(master_df)
 - Journey metrics (duration, distance, average speed, fuel rate, etc.)
 - Acceleration event highlighting
 
+<img width="1195" height="922" alt="image" src="https://github.com/user-attachments/assets/dda8c8ef-7fed-4e22-b29a-aecd4268f845" />
+
+
 ### Condition Comparison Page
 - Fuel consumption comparison bar chart
 - Key findings (e.g., "Traffic increased fuel consumption by 52%")
 - Average speed and stop-and-go time comparisons
 - Detailed comparison table
 
+<img width="1170" height="642" alt="image" src="https://github.com/user-attachments/assets/636d6ae0-86c7-4c2c-af41-fe7347b68d1c" />
+
+
 ### Detailed Analysis Page
 - **Speed Distribution**: Histogram showing speed distribution by condition
 - **Correlations**: Heatmap and scatter plots of variable relationships
 - **Raw Data**: Filterable data table with CSV export
+
+<img width="1207" height="572" alt="image" src="https://github.com/user-attachments/assets/b9a69d5c-4cfb-4009-9011-eac33894e6d2" />
+
 
 ## Data Format
 
