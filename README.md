@@ -2,6 +2,9 @@
 
 A comprehensive analysis system for real-world automotive OBD-II data from 20+ journeys in different driving conditions. This project quantifies how driving conditions (Normal, Frei, Stau, Glatteis, etc.) impact vehicle efficiency and driving behavior.
 
+<img width="1620" height="1080" alt="image" src="https://github.com/user-attachments/assets/ea186b08-4ac9-41c6-a03a-90d9075b576f" />
+
+
 ## Features
 
 - **Data Pipeline**: Automated loading and processing of multiple OBD-II CSV files
